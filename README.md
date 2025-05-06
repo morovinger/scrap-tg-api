@@ -71,4 +71,40 @@ Scraped messages are saved as JSON files in the `data/` directory:
 
 ## Authentication
 
-On first run, you will be prompted to authenticate with your Telegram account. The session will be saved for future use 
+On first run, you will be prompted to authenticate with your Telegram account. The session will be saved for future use
+
+## Session Persistence
+
+The application now supports persistent sessions. When you first run the application and authenticate, your session will be saved to a file named `telegram-scraper.session` in the project root directory. On subsequent runs, the application will automatically load this session file, allowing you to skip the authentication process.
+
+### How it works:
+1. On first run, you'll need to provide your phone number and verification code
+2. The session data is saved to a file after successful authentication
+3. Future runs will automatically use the saved session
+
+If you need to authenticate with a different account, simply delete the `.session` file.
+
+## Configuration
+
+Create a `.env` file in the project root with the following variables:
+
+```
+API_ID=your_api_id
+API_HASH=your_api_hash
+SESSION_NAME=telegram-scraper
+TARGET_CHANNEL=channel_username
+```
+
+## Running the Application
+
+Start the application with:
+
+```
+npm start
+```
+
+Or in development mode:
+
+```
+npm run dev
+``` 

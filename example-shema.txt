@@ -1,0 +1,17 @@
+[
+  {
+    "data_post": "arendabatumi/2582746",
+    "user_url": "https://t.me/arendabatumi",
+    "user_name": "Батуми аренда | недвижимость квартиры",
+    "user_photo": "https://t.me/arendabatumi/profile-photo",
+    "message_url": "https://t.me/arendabatumi/2582746",
+    "message_text": "[Photo message without text, 1 photo(s)]",
+    "message_photo": [
+      "https://t.me/arendabatumi/2582746?single&photo=m"
+    ],
+    "message_video": [],
+    "views": "0",
+    "datetime": "2025-05-06T09:29:42.000Z",
+    "id": 2582746
+  },
+]
