@@ -1,6 +1,6 @@
 # Telegram Channel Scraper
 
-A modular TypeScript application for scraping the "arendabatumi" channel in Telegram using GramJS.
+A modular TypeScript application for scraping closed channels like "arendabatumi" channel in Telegram using GramJS.
 
 ## Project Structure
 
@@ -58,6 +58,9 @@ npm start
 
 ## Environment Configuration
 
+You MUST create new Telegram APP with API here https://my.telegram.org/apps
+You MUST be presented at the channel you trying to scrape
+
 - `API_ID`: Your Telegram API ID
 - `API_HASH`: Your Telegram API hash
 - `SESSION_NAME`: Name for the session file
@@ -108,3 +111,4 @@ Or in development mode:
 ```
 npm run dev
 ``` 
+On first run, you will be prompted to authenticate with your Telegram account. The session will be saved for future use 
