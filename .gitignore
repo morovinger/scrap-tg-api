@@ -4,3 +4,4 @@ dist/
 *.session
 *.session-journal
 .idea
+data
